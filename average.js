@@ -11,6 +11,17 @@ function calculate() {
     let value9 = document.querySelector("#value9").value;
     let value10 = document.querySelector("#value10").value;
 
+    value1 = Number(value1)
+    value2 = Number(value2)
+    value3 = Number(value3)
+    value4 = Number(value4)
+    value5 = Number(value5)
+    value6 = Number(value6)
+    value7 = Number(value7)
+    value8 = Number(value8)
+    value9 = Number(value9)
+    value10 = Number(value10)
+
     let sum = value1 + value2 + value3 + value4 + value5 + value6 + value7 + value8 + value9 + value10 ;
     let average = sum / 10 ;
 
